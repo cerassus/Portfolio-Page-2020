@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Bahnschrift;
+        margin: 0;
+        background-color:rgb(230, 224, 219);
+        font-size: 14px;
+        line-height: 1.5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: rgb(193, 209, 219);
+    }
+    #welcome-section {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(45deg, rgba(131,125,218,1) 0%, rgba(64,52,176,1) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar {
+        position: fixed;
+        height: 4.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.5rem;
+        background-color:#1f1487;       
+    }
+    .navlink {
+        background-color: #1f1487;
+        padding: 1rem 2rem;
+    }
+    .navlink:hover {
+        background-color: rgb(103, 131, 163);
+        color: rgb(221, 231, 238);
+    }
+    a:link, a:visited, a:active {
+        color:rgb(193, 209, 219);
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 0;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.46);
+    }
+
+    p {
+        margin: 0;
+    }
+    #projects {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        background-color: rgba(62, 55, 126, 0.8);
+    }
+
+@media screen and (min-width: 1200px) {
+
+    .project-tile {
+        border: 3px solid black;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .project-tile {
+        border: 3px solid black;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        padding: 30px;
+    }
+}
+    #contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+
+
+
+</style>
+
+<body>    
+<nav id="navbar">
+    <a href="#welcome-section" class="navlink">Welcome</a>
+    <a href="#projects" class="navlink">Projects</a>
+    <a href="#contact" class="navlink">Contact</a>
+</nav>
+
+    <section id="welcome-section">
+        <h1>Cerassus</h1>
+        <p>Junior Front-End</p>
+    </section>
+    <section id="projects">
+        <div class="project-tile">
+            <a href="http://linux.org">Jameson Project</a>
+        </div>
+        <div class="project-tile">
+            Bushmills
+        </div>
+        <div class="project-tile">
+            Tullamore
+        </div>
+    </section>
+    <section id="contact">
+        <a href="https://github.com/cerassus" id="profile-link" target="_blank">Link to GitHub</a>
+    </section>
+
+</body>
+</html>
