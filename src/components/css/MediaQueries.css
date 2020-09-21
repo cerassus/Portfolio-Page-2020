@@ -1,0 +1,117 @@
+@media screen and (max-width: 900px) {
+    .section-career-icons, .section-contact .project-icon-container, .projects {
+        transform: scale(0.8);
+    }
+    .section-home {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .carousel-description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel-caption {
+        background: black!important;
+        position: relative!important;
+        height: 230px;
+    }
+    .carousel-description {
+        padding: 0;
+    }
+    .carousel-img {
+        display: none;
+    }
+    .carousel-title {
+        text-align: center;
+    }
+    .projects {
+        flex-direction: column;
+        margin: 0;
+        transform: scale(1);
+    }
+    .project-container {
+        flex-direction: row;
+    }
+    .project-container-white {
+        height: 250px;
+    }
+    .skills img {
+        margin: 0;
+    }
+    form {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section-contact .project-icon-container {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project-container {
+        transform: scale(0.9);
+    }
+    .skills, .skills img {
+        height: 0;
+    }
+    .navi-links {
+        flex-direction: column;
+        height: 180px;
+        justify-content: space-around;
+    }
+    .certifications {
+        opacity: 0;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .project-container {
+        transform: scale(0.8);
+    }
+    .tech-icons img {
+        margin: 0 5px;
+    }
+    .section h2 {
+        font-size: 22px;
+    }
+    .section-contact {
+        height: 1000px;
+    }
+    .section-contact .project-icon-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-contact .project-icon-container img {
+        margin: 10px;
+    }
+    .hr-contact {
+        margin-bottom: 0!important;
+        display: none
+    }
+    .section-contact .margin-bottom {
+        display: none;
+    }
+    .section-title {
+        padding: 30px;
+    }
+    .section-contact h2:nth-of-type(2) {
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .carousel-caption {
+        height: 250px;
+    }
+    .section-home {
+        height: 450px;
+    }
+}

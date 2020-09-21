@@ -1,0 +1,12 @@
+#footer {
+    text-align: center;
+}
+
+#footer div {
+    padding: 25px;
+    font-weight: 600;
+    font-family: 'Be Vietnam', sans-serif;
+    color: white;
+    background-color: #1f1487;
+
+}

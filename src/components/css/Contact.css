@@ -1,0 +1,81 @@
+.section-contact {
+    background: #7B1D6C;
+    height: 900px;
+    justify-content: flex-start!important;
+    position: relative;
+    z-index: 0;
+}
+
+.section-contact::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../contact_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 5%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.section-contact h2:nth-of-type(2) {
+    margin: 30px 0;
+}
+
+form {
+    width: 600px;
+}
+
+.forms-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.btn-contact, .forms-control input, textarea {
+    width: 100%;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: 0;
+    transition: all ease 0.1s;
+}
+
+.btn-contact {
+    text-transform: uppercase;
+    letter-spacing: 00.10em;
+    background: #65A335;
+    color: white;
+}
+
+.btn-contact:focus {
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    outline-color: #7B1D6C;
+    outline-offset: 2px;
+}
+
+.btn-contact:hover {
+    background:white;
+    color: #7B1D6C;
+    transition: all ease 0.1s;
+}
+
+.section-contact .project-icon-container img:hover {
+    filter: invert(90%);
+    -webkit-filter: invert(90%);
+    cursor: pointer;
+}
+
+#area {
+    resize: none;
+    height: 200px!important;
+}
+
+.hr-contact {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 245, 236, 0.85), rgba(0, 0, 0, 0))!important;
+    margin-bottom: 40px!important;
+}

@@ -1,0 +1,44 @@
+.navi {
+    display: flex;
+    position: fixed;
+    width: 60px;    
+    background-color: #1f1487;
+    z-index: 10;
+    justify-content: flex-start;
+    color: white;
+}
+
+.navi-fullwidth {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navi-links {
+    width: 0%;
+    justify-content: flex-end;
+    display: flex;
+    z-index: 11;
+    height: 60px;
+    background-color: #1f1487;
+    position: fixed;
+    left: -500px;
+}
+
+.navi-link {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navi-link:hover {
+    background-color: rgb(103, 131, 163);
+    color: rgb(221, 231, 238);
+    text-decoration: none;
+}
+
+.show-menu {
+    width: 100%;
+    left: 0;
+}
