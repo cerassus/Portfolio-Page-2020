@@ -2,7 +2,7 @@ const projects = [
     {
         title: "Movies",
         img: "img/projects/icon_movies.png",
-        link: "http://cerassus.usermd.net/movies/",
+        link: "http://movies.cerassus.eu",
         done: true,
         icons: [
             {

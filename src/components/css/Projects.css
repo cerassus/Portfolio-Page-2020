@@ -4,13 +4,13 @@
     align-items: center;
     transition: all ease 0.3s;
     max-width: 900px;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
 .project-title {
     font-size: 24px;
     letter-spacing: 0.405em;
-    color: #6E285A;
+    color: var(--darkpurple);
     text-transform: uppercase;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .project-container-blue {
-    background-color: #5771B5;
+    background-color: var(--blues);
 }
 
 .project-container-white {
@@ -60,7 +60,7 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     padding: 10px;
-    text-shadow: 1px 2px 3px #B4B6B0;
+    text-shadow: 1px 2px 3px var(--shadow);
     margin: 20px 0;
 }
 
@@ -69,23 +69,23 @@
 }
 
 .button:hover {
-    background: #6E285A;
+    background: var(--darkblue);
     transition: all ease 0.1s;
     width: 85%;
 }
 
 .btn-website {
-    background: #5771B5;
+    background: var(--blues);
     transition: all ease 0.1s;
 }
 
 .btn-code {
     transition: all ease 0.1s;
-    background: #65A335;
+    background: var(--greenie);
 }
 
 .btn-under-contruction {
-    background: #65A335;
+    background: var(--greenie);
     width: 80%;
     border: 0;
     border-radius: 25px;
@@ -94,6 +94,11 @@
     padding: 10px;
     color: white;
     margin: 20px 0;
-    text-shadow: 1px 2px 3px #B4B6B0;
+    text-shadow: 1px 2px 3px var(--shadow);;
     cursor: default;
+}
+
+.resume a {
+    color:  var(--darkpurple)!important;
+    text-decoration: underline!important;
 }

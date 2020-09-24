@@ -6,7 +6,7 @@ module.exports = {
   entry: `./src/${entryFile}`,
   output: {
     filename: "out.js",
-    path: path.resolve(__dirname, `${entryPath}/build`)
+    path: path.resolve(__dirname, "build")
   },
   devServer: {
     contentBase: path.join(__dirname, `${entryPath}`),

@@ -8,7 +8,7 @@ const Form = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         const input_name = /^\w{3,}/.test(name) ? name : false;
-        const input_mail = /^\w{1,}@\w{1,}\.\w{2,}$/.test(mail) ? mail : false;
+        const input_mail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(mail) ? mail : false;
         const input_text = /\w{3,}/.test(text) ? text : false;
         (!input_name || !input_mail || !input_text) ?
             alert("Typing Error: Type at least 3 characters!") :

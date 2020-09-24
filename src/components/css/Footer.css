@@ -7,6 +7,6 @@
     font-weight: 600;
     font-family: 'Be Vietnam', sans-serif;
     color: white;
-    background-color: #1f1487;
+    background-color: var(--darkblue);
 
 }

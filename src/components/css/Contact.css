@@ -1,5 +1,5 @@
 .section-contact {
-    background: #7B1D6C;
+    background: var(--purples);
     height: 900px;
     justify-content: flex-start!important;
     position: relative;
@@ -45,7 +45,7 @@ form {
 .btn-contact {
     text-transform: uppercase;
     letter-spacing: 00.10em;
-    background: #65A335;
+    background: var(--greenie);
     color: white;
 }
 
@@ -54,7 +54,7 @@ form {
 }
 
 input:focus, textarea:focus {
-    outline-color: #7B1D6C;
+    outline-color: var(--purples);
     outline-offset: 2px;
 }
 

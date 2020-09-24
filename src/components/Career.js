@@ -26,13 +26,13 @@ const Career = () => (
                 <a href="https://www.udemy.com/certificate/UC-47741973-118b-4b4e-bbf0-4da7b95e3215/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank" rel="noopener noreferrer">
                     <img alt="img-course-1" src="img/course/udemy.png" />
                 </a>
-                <a href="http://cerassus.usermd.net/pdf/coderslab2.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="http://cerassus.eu/pdf/coderslab2.pdf" target="_blank" rel="noopener noreferrer">
                     <img alt="img-course-2" src="img/course/coderlab.png" />
                 </a>
                 <a href="https://www.freecodecamp.org/certification/cerassus/javascript-algorithms-and-data-structures" target="_blank" rel="noopener noreferrer">
                     <img alt="img-course-3" src="img/course/fcc.png" />
                 </a>
-                <a href="http://cerassus.usermd.net/pdf/codeme.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="http://cerassus.eu/pdf/codeme.pdf" target="_blank" rel="noopener noreferrer">
                     <img alt="img-course-4" src="img/course/codeme.png" />
                 </a>
                 <img alt="img-course-5" src="img/course/codewars.png" />
