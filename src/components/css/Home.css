@@ -14,7 +14,6 @@
     background: linear-gradient(45deg, rgba(131, 125, 218, 1) 0%, rgba(64, 52, 176, 1) 100%);
     color: var(--beige);
     height: 100vh;
-    position: relative;
     z-index: 0;
 }
 
@@ -26,5 +25,5 @@
 .author-title {
     position: relative;
     top: -10px;
-    padding-left: 150px;
+    padding-left: 250px;
 }

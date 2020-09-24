@@ -9,7 +9,7 @@ const About = () => (
             <h1>About Me</h1>
         </div>
         <h2>Everyday Life</h2>
-        <div className="hr"></div>
+        <div className="hr hr-simple"></div>
         <p>
             My Name is Michał Wiśniewski. I am 32 years old, living in Wroclaw/Poland with my beautiful wife and Portos. 
             Portos is our dog, cream-colored Golden Retriever who makes our lives happier. We both love to travel and 
@@ -17,7 +17,7 @@ const About = () => (
             pizza and single malt whisky. One of my life goals is to visit Seven Wonders of World.
         </p>
         <h2>Hobbies</h2>
-        <div className="hr"></div>
+        <div className="hr hr-simple"></div>
         <div className="section-about-hobbies">
             <Hobbies />
         </div>

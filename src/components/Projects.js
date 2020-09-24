@@ -10,13 +10,13 @@ const Projects = () => (
             <h1>Projects</h1>
         </div>
         <h2>My Resume</h2>
-        <div className="hr"></div>
+        <div className="hr hr-simple"></div>
         <p className="resume">
             You can look at my resume here: <a href="http://cerassus.eu/pdf/CV_PL.pdf"  target="_blank" rel="noopener noreferrer">Polish version </a> 
             and <a href="http://cerassus.eu/pdf/CV_EN.pdf"  target="_blank" rel="noopener noreferrer">English version</a> 
         </p>
         <h2>Finished Projects</h2>
-        <div className="hr"></div>
+        <div className="hr hr-simple"></div>
         <p>
             Here you can find couple of simple projects I prepared to practice
             web development tools and technologies. Besides the links to websites

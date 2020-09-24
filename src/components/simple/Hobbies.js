@@ -9,7 +9,7 @@ const CarouselCaption = (props) => (
         <img alt="carousel-img" className="carousel-img" src={props.src} />
         <div className="carousel-container">
             <h2 className="carousel-title">{props.title}</h2>
-            <div className="hr-carousel"></div>
+            <div className="hr hr-carousel"></div>
             <div className="carousel-description">{props.desc}
             </div>
         </div>

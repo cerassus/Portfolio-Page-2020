@@ -1,5 +1,5 @@
 @media screen and (max-width: 900px) {
-    .section-career-icons, .section-contact .project-icon-container, .projects {
+    .section-career-icons, .project-icon-container, .projects {
         transform: scale(0.8);
     }
     .section-home {
@@ -82,9 +82,6 @@
     .section h2 {
         font-size: 22px;
     }
-    .section-contact {
-        height: 1000px;
-    }
     .section-contact .project-icon-container {
         flex-direction: column;
         align-items: center;
@@ -104,6 +101,9 @@
     }
     .section-contact h2:nth-of-type(2) {
         margin: 0 0 20px 0;
+    }
+    .author-title {
+        padding-left: 100px;
     }
 }
 
