@@ -1,0 +1,86 @@
+.alert {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba($color-primary, .99);
+    z-index: 998;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+
+    &__close__bg {
+        position: absolute;
+        cursor: default;
+        height: 100vh;
+        width: 100%;
+    }
+
+    &__content {
+        position: relative;
+        width: 80rem;
+        background-color: $color-white;
+        box-shadow: 0 2rem 4rem rgba(black, .2);
+        border-radius: 5px;
+        overflow: hidden;
+        opacity: 0;
+        transform: scale(.25);
+    }
+
+    &__text {
+        padding: 0 5rem 4rem;
+        text-align: center!important;
+    }
+
+    &__bar {
+        height: 5rem;
+        text-align: center;
+        padding: 1rem;
+        color: $color-white;
+        border-radius: 0;
+
+        &__success {
+            background-color: $color-secondary;
+        }
+
+        &__fail {
+            background-color: $color-warning;
+        }
+    }
+}
+
+#alert_email_fail_close,
+#alert_email_success_close {
+    &,
+    &:link,
+    &:visited {
+        color: $color-white;
+        position: absolute;
+        top: 1rem;
+        right: 2.5rem;
+        font-size: 3rem;
+        text-decoration: none;
+        display: inline-block;
+        transition: all .2s;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+#checkbox_email_success:checked + #alert_email_success,
+#checkbox_email_fail:checked + #alert_email_fail {
+    opacity: 1;
+    visibility: visible;
+}
+
+#checkbox_email_success:checked + #alert_email_success .alert__content,
+#checkbox_email_fail:checked + #alert_email_fail .alert__content {
+    opacity: 1;
+    transform: scale(1);
+}
+

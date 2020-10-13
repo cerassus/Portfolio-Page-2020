@@ -1,0 +1,34 @@
+.anim__about_me {
+    transform: translateX(-0px)!important;
+    opacity: 1!important;
+}
+
+.anim__visible {
+    opacity: 1!important;
+}
+
+.anim__footer {
+    opacity: 1!important;
+    padding: 4rem;
+    height: 10rem;
+}
+
+.anim__hobbies {
+    width: 100%!important;
+    opacity: 1!important;
+}
+
+.anim__hobby {
+    width: 30%;
+    opacity: 1!important;
+    padding: 5rem;
+
+    & .hobby__title {
+        font-size: 2rem;
+    }
+}
+
+.anim__header {
+    left: 0!important;
+    opacity: 1!important;
+}

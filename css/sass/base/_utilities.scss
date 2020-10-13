@@ -1,0 +1,40 @@
+.mb {
+    &-small {
+        margin-bottom: 3rem;
+    }
+    &-medium {
+        margin-bottom: 6rem;
+    }
+    &-big{
+        margin-bottom: 8rem;
+    }
+}
+
+.text {
+    &-l {
+        text-align: left;
+    }
+    &-c {
+        text-align: center;
+    }
+    &-r {
+        text-align: right;
+    }
+}
+
+.dark-font {
+    color: $font-dark!important;
+}
+
+.light-font {
+    color: $font-light!important;
+}
+
+.full-width-heading {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    height: 5.5rem;
+    background-color: $color-primary;
+    box-shadow: 0 2px 5px $color-secondary;
+}

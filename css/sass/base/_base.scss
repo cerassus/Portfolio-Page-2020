@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif; 
+    color: $font-dark;
+}
+
+body {
+    font-size: 1.5rem;
+    scroll-behavior: smooth;
+}
+
+div, h2, img {
+    transition: all 0.5s;
+}
+
+a, button, ul, li {
+    transition: all 0.3s;
+}
+
+div, input, textarea, a, button, form {
+    border-radius: 5px;
+}
+
+section:not(:last-child) {
+    margin-bottom: 10rem;
+         overflow: hidden;
+}
+
+.main-container {
+    background-color: $color-white;
+    max-width: 100rem; 
+    position: relative;
+    margin: 10vh auto 0;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+#home, #career, #projects, #contact {
+    padding-top: 7rem;
+    margin-top: -7rem;
+}
+
+#certifications {
+    padding-top: 10rem;
+    margin-top: -7rem;
+}

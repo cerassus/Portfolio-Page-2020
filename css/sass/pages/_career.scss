@@ -1,0 +1,46 @@
+.career {
+
+    &__block {
+
+        & {
+            @include hidden;
+        }
+
+        &__title {
+            @include heading;
+            background-color: $color-primary;
+            box-shadow: 0 1rem 0 $color-secondary;
+        }
+
+        &:nth-of-type(odd) > *:first-child {
+            width: 35%;
+            align-self: flex-start;
+            transform: translateX(-105%);
+        }
+
+        &:nth-of-type(even) > *:first-child {
+            width: 65%;
+            align-self: flex-end;
+            transform: translateX(105%);
+        }
+
+        &__text {
+            column-count: 2;
+            column-gap: 3rem;
+        }
+    
+        &__icons {
+            border: 2px solid $color-secondary;
+            padding: 2rem;
+        
+            & img {
+                height: 35px;
+            }
+        
+            & > img {
+                margin: 0 1rem;
+                height: 40px;
+            }
+        }
+    }
+}

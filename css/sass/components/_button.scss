@@ -1,0 +1,46 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        @include button;
+    }
+
+    &:hover {
+        // transform: translateY(-3%);
+        box-shadow: 1px 4px 8px $color-primary;
+        cursor: pointer;
+        background-color: $color-secondary;
+    }
+
+    &:active {
+        box-shadow: 0;
+        transform: translateY(6%);
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0px 2px 8px $color-primary;
+    }
+    &--project {
+        background-color: $color-primary;
+    }
+
+    &--code {
+        background-color: $btn-secondary;
+    }
+
+    &--contact {
+        width: 100%;
+    }
+
+    &__inactive {
+        &,
+        &:hover,
+        &:link,
+        &:focus,
+        &:visited {
+            @include button;
+            background-color: $btn-secondary;
+        }
+    }
+}

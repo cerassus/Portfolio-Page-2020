@@ -1,0 +1,71 @@
+.contact {
+
+    & {
+        @include hidden;
+    }
+
+    &__form {
+        width: 65rem;
+        margin: 0 auto;
+        padding: 4rem;
+        border: 2px solid $color-secondary;
+        box-shadow: 0 2px 5px $color-primary;
+
+        &__form-control {
+
+            & {
+                width: 100%;
+            }
+            & * {
+                display: block;
+                margin-bottom: 1rem;
+                width: 100%;
+                padding: 1rem;
+            }
+            & *:nth-child(3) {
+
+                &,
+                &:-webkit-autofill {
+                    border: 2px solid $color-secondary;
+                    color: $color-secondary;
+                    font-weight: 600;
+                    font-family: inherit;
+                    font-size: 1em;
+                    outline: none;
+                    -webkit-text-fill-color: $color-secondary;
+                    background-color: $color-white;
+                }
+
+                &::placeholder {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}   
+
+.form {
+
+    &__label {
+        display: inline-block;
+        width: 30%;
+        &:nth-child(2){
+            width: 65%;
+        }
+    }
+
+    &__hint-name,
+    &__hint-mail,
+    &__hint-area {
+        color: $color-warning;
+        opacity: 0;
+        transition: all 0.2s;
+    }
+
+    &__area {
+        resize: none;
+        height: 30rem;
+    }
+}
+
+

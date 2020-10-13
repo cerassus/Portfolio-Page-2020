@@ -1,0 +1,97 @@
+.projects {
+
+    
+    &__container {
+        width: 100%;
+        backface-visibility: hidden;
+        @include hidden;
+    }
+
+    &__resume {
+        & {
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        &__cv {
+            padding: 3rem 4rem;
+            background-color: $color-primary;
+            @include hidden_left;
+
+
+            &__pdf > * {
+                &,
+                &:link,
+                &:active,
+                &:visited {
+                    margin: 3rem auto;
+                    width: 10rem;
+                    padding: 2rem;
+                    display: block;
+                    background-color: $color-white;
+                    color: $color-primary;
+                    text-decoration: none;
+                }
+                &:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 0 15px $color-secondary;
+                }
+            }
+        }
+    
+        &__certifications {
+            padding: 3rem;
+            @include hidden_right;
+
+            & *:not(:first-child) {
+                margin: 1rem 0;
+            }
+
+            & .certificate {
+                
+                &,
+                &:link,
+                &:visited {
+                    display: block;
+                    text-decoration: none;
+                    transform: translateX(5%);
+                    color: $color-primary;
+                }
+                &:active {
+                    color: $color-secondary;
+                }
+                &:hover {
+                    transform: translateX(10%);
+                    color: $color-secondary;
+                }
+            }
+        }
+
+        &__img {
+            position: relative;
+            top: 5rem;
+
+            & img {
+                position: absolute;
+                z-index: 0;
+                transform: translateX(-130%);
+                height: 30rem;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .full-width-heading {
+        @include hidden;
+    }
+
+    & > p {
+        @include hidden;
+    }
+
+}
+
+// .img_pdf {
+//     width: 5rem;
+//     margin: 3rem auto;
+// }

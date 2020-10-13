@@ -1,0 +1,55 @@
+@mixin heading {
+    background-color: $color-secondary;
+    height: 5.5rem;
+    color: white;
+    padding: 1rem;
+    ;
+    text-align: center;
+}
+
+@mixin button {
+    text-decoration: none;
+    width: 85%;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+    color: $font-light;
+    text-align: center;
+    box-shadow: 0px 2px 3px $color-primary;
+}
+
+@mixin hidden_right {
+    opacity: 0;
+    transform: translateX(175%);
+    transition: all 1s!important;
+}
+
+@mixin hidden_left {
+    opacity: 0;
+    transform: translateX(-175%);
+    transition: all 1s!important;
+}
+
+@mixin hidden_hobbies {
+    opacity: 0;
+}
+
+@mixin hidden {
+    opacity: 0;
+    transition: all 1.2s!important;
+}
+
+@mixin full-width-left {
+    flex-wrap: wrap;
+    @include hidden_left;
+    margin: 0 auto;
+}
+
+@mixin full-width-right {
+    @include hidden_right;
+    padding: 3.5rem;
+    width: 100%;
+}

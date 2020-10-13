@@ -1,0 +1,49 @@
+.hobby {
+
+    &,
+    &:link,
+    &:active,
+    &:visited {
+        position: relative;
+        background-color: $color-white;
+        justify-content: space-between;
+        box-shadow: 0 0 25px $shadow-dark;
+        backface-visibility: hidden;
+        opacity: 0;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    &:hover {
+        box-shadow: 0 0 8px $color-secondary;
+        transform: scale(0.95) translateY(2%);
+
+        & * {
+            transform: scale(1.05);
+        }
+    }
+
+    &__img {
+        width: 100%;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    &:nth-child(1) {
+        top: -15%;
+    }
+
+    &:nth-child(3) {
+        bottom: -15%;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 0rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        padding-top: 4rem;
+        backface-visibility: hidden;
+        text-decoration: none;
+        color: $color-primary;
+    }
+}

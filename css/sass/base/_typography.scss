@@ -1,0 +1,71 @@
+h1 {
+    display: none;
+}
+
+.header {
+
+    & {
+        font-family: 'Julius Sans One', sans-serif;
+        color: $font-light;
+        opacity: 0;
+    }
+
+    &__author {
+        font-size: 10vh;
+        font-weight: 600;
+        text-shadow: 1rem -1rem 1.5rem $shadow-dark;
+        position: relative;
+        left: -105%;
+    }
+    
+    &__title {
+        font-size: 1.6vh;
+        transform: translate(70%, -50%);
+        text-shadow: 1rem -1rem 0.5rem $shadow-dark;
+        position: relative;
+        left: 105%;
+    }
+}
+
+.section {
+
+    & {
+        text-shadow: 1px 2px 5px $color-primary;
+    }
+
+    &__title {
+        font-family: 'Be Vietnam', sans-serif;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: $font-light;
+        font-weight: 400;
+        margin-bottom: 3rem;
+    }
+
+    &__text {
+        color: $font-light;
+        text-align: justify;
+        font-weight: 300;
+        line-height: 2.5rem;
+        color: $color-primary;
+
+        &--padd {
+            padding: 0 4rem;
+        }
+
+        & > a {
+            &,
+            &:link,
+            &:visited,
+            &:active {
+                color: $color-primary;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            &:hover {
+                color: $color-secondary;
+            }
+        }
+    }
+}
