@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerassus Portfolio</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/sass/main.css">
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/email.min.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <input class="nav__checkbox" id="nav__checkbox" type="checkbox">
+        <label class="nav__button" for="nav__checkbox">
+            <span class="nav__bars"></span>
+        </label>
+        <nav>
+            <ul class="nav__list flex">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="https://github.com/cerassus/"><img src="/img/social/git.png" alt="github-link"></a></li>
+                <li class="nav__item"><a class="nav__link" href="#home">About Me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#career">Career</a></li>
+                <li class="nav__item"><a class="nav__link" href="#projects">Projets</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="header flex-c-c-c">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+                <source src="img/video.webm" type="video/webm">
+                <source src="img/video.mp4" type="video/mp4">
+                Your browser is not supported!
+            </video>
+        </div>
+        <div class="header__author">Cerassus</div>
+        <div class="header__title">Junior Front End Developer</div>
+    </header>
+    <main class="main-container">
+        <section id="home">
+            <h1>About Me</h1>
+            <div class="about flex mb-big">
+                <div class="about__right">
+                    <h2 class="section__title dark-font">everyday life</h2>
+                    <p class="section__text">
+                        My Name is Michał Wiśniewski. I am 32 years old,
+                        living in Wroclaw/Poland with my beautiful
+                        wife and Portos. Portos is our dog, cream-colored
+                        Golden Retriever who makes our lives happier. We both
+                        love to travel and visit new places during every
+                        vacation. I am a big fan of travelling by plane,
+                        sightseeing, Neapolitan pizza and single malt whisky.
+                        One of my life goals is to visit Seven Wonders of World.</p>
+                </div>
+                <div class="about__left flex">
+                    <div class="about__left__img"></div>
+                    <div class="about__left__img"></div>
+                    <div class="about__left__img"></div>
+                    <div class="about__left__img"></div>
+                </div>
+            </div>
+            <div class="hobbies flex-r-c-c mb-big">
+                <a href="#popup_hobby_1" class="hobby flex-c-c">
+                    <img class="hobby__img" src="img/hobbies/whisky_draw.png" alt="hobby-img">
+                    <div class="hobby__title">Whisky</div>
+                </a>
+                <a href="#popup_hobby_2" class="hobby flex-c-c">
+                    <img class="hobby__img" src="img/hobbies/drawind_draw.png" alt="hobby-img">
+                    <div class="hobby__title">Art</div>
+                </a>
+                <a href="#popup_hobby_3" class="hobby flex-c-c">
+                    <img class="hobby__img" src="img/hobbies/travel_draw.png" alt="hobby-img">
+                    <div class="hobby__title">Travel</div>
+                </a>
+                <h2 class="section__title">hobbies</h2>
+            </div>
+            <div class="workstation flex">
+                <div class="workstation__right">
+                    <h2 class="section__title dark-font">workstation</h2>
+                    <p class="section__text">
+                        I'm working on Dream Machines Laptop who runs on Windows 10 and
+                        Linux Fedora operating systems.
+                        My everyday tools are: Visual Studio Code and Google Chrome.
+                        For design I'm using the Gimp and Figma. </p>
+                </div>
+                <div class="workstation__left flex-r-c-c">
+                    <div class="workstation__left__img"><img src="img/tools/fedora.png" alt="tools-img"></div>
+                    <div class="workstation__left__img"><img src="img/tools/vsc.png" alt="tools-img"></div>
+                    <div class="workstation__left__img"><img src="img/tools/figma.png" alt="tools-img"></div>
+                    <div class="workstation__left__img"><img src="img/tools/windows.png" alt="tools-img"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="career">
+            <h1>Career</h1>
+            <div class="career__block flex-c-c-c">
+                <div class="career__block__title mb-big" id="career_1">
+                    <h2 class="section__title">career</h2>
+                </div>
+                <p class="career__block__text section__text section__text--padd mb-big">
+                    My career started in sales sector. Since I was a
+                    little boy, I was
+                    fascinated by computers and the way
+                    they work. My first job was at local computer store,
+                    I was selling laptops, PC’s and accessories.
+                    I was constantly improving my sales skills in
+                    consumer electronics sector selling cameras, tv screens
+                    and in gaming industry. Since the beginning of 2020
+                    I decided to move my career to a completely
+                    different direction. I decided to leave the sales
+                    behind and learn programming. My old fascination has
+                    returned, and I became interested in Front End development.
+                    I am constantly improving my knowledge of
+                    Front-End by practicing writing code in JavaScript using
+                    React, Redux and other libraries. I still have
+                    a lot to learn but I am sure I am ready to start my first
+                    job as Junior Front-End Developer. I am open
+                    to work in Poland or abroad. You can find my projects <a href="#projects">here</a>
+                </p>
+            </div>
+            <div class="career__block flex-c-c-c">
+                <div class="career__block__title mb-big" id="career_2">
+                    <h2 class="section__title">skills</h2>
+                </div>
+                <p class="career__block__text section__text section__text--padd mb-big">
+                    I started with mastering my HTML and CSS skills. I
+                    completed many online
+                    courses like “Web Developer
+                    Bootcamp” on Udemy or “Basics Web Development” in CodersLab School.
+                    FreeCodeCamp helped me take my first
+                    steps in programming, after it I decided to dig deeper into JavaScript
+                    world and started to learn coding
+                    using React library. Taking step by step I was learning another
+                    libraries and extensions. Now I can say
+                    I have basic experience in Redux, React-Router, MaterlUI and Bootstrap.
+                    Completing the course “React,
+                    Redux for programmers” gave me a lot of new knowledge and experience.
+                    You can see the certifications in this <a href="#certifications">section</a>
+                </p>
+                <div class="career__block__icons flex-r-c-c mb-big">
+                    <a href="https://www.udemy.com/certificate/UC-47741973-118b-4b4e-bbf0-4da7b95e3215/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email"
+                        target="_blank" rel="noopener noreferrer">
+                        <img alt="img-course" src="img/course/udemy.png" />
+                    </a>
+                    <a href="http://cerassus.eu/pdf/coderslab2.pdf" target="_blank" rel="noopener noreferrer">
+                        <img alt="img-course-2" src="img/course/coderlab.png" />
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/cerassus/javascript-algorithms-and-data-structures"
+                        target="_blank" rel="noopener noreferrer">
+                        <img alt="img-course-3" src="img/course/fcc.png" />
+                    </a>
+                    <a href="http://cerassus.eu/pdf/codeme.pdf" target="_blank" rel="noopener noreferrer">
+                        <img alt="img-course-4" src="img/course/codeme.png" />
+                    </a>
+                    <img alt="img-course-5" src="img/course/codewars.png" />
+                </div>
+            </div>
+            <div class="career__block flex-c-c-c">
+                <div class="career__block__title mb-big" id="career_3">
+                    <h2 class="section__title">experience</h2>
+                </div>
+                <p class="career__block__text section__text section__text--padd mb-medium">I learned the most from
+                    projects I prepared for
+                    this portfolio. Mostly by
+                    creating problems and trying
+                    to figure it out how to solve them on my own or looking for hints the internet. Reading
+                    documentations
+                    showed me that even if I know how to do something, there is always an another way to do it.</p>
+                <div class="career__block__icons flex-r-c-c">
+                    <img alt="img-tech-1" src="img/tech/html.png" />
+                    <img alt="img-tech-2" src="img/tech/css.png" />
+                    <img alt="img-tech-7" src="img/tech/sass.png" />
+                    <img alt="img-tech-3" src="img/tech/react.png" />
+                    <img alt="img-tech-4" src="img/tech/redux.png" />
+                    <img alt="img-tech-5" src="img/tech/router.png" />
+                    <img alt="img-tech-6" src="img/tech/mui.png" />
+                    <img alt="img-tech-7" src="img/tech/bootstrap.png" />
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects flex-c-c-c">
+            <h1>Projects</h1>
+            <div class="full-width-heading mb-big">
+                <h2 class="section__title">projects</h2>
+            </div>
+            <p class="section__text section__text--padd mb-medium">
+                Here you can find couple of simple projects I prepared to practice web development tools and
+                technologies.
+                Besides the links to websites you can check used technologies and source code.
+            </p>
+            <div class="projects__container flex-r-c-c mb-big">
+                <div class="project flex-c">
+                    <div class="project__box flex-c-c">
+                        <img class="project__img" src="img/projects/icon_movies.png" alt="project-img" />
+                        <div class="project__title">Movies</div>
+                    </div>
+                    <div class="project__box flex-c-c">
+                        <a href="https://movies.cerassus.eu" target="_blank" class="btn btn--project">Visit website</a>
+                        <div class="project__icon__container">
+                            <img class="project__icon" alt="tool-icon" src="img/tech/react.png" />
+                            <img class="project__icon" alt="tool-icon" src="img/tech/redux.png" />
+                            <img class="project__icon" alt="tool-icon" src="img/tech/mui.png" />
+                        </div>
+                        <a href="https://github.com/cerassus/Portfolio-Movies" target="_blank"
+                            class="btn btn--code">Code</a>
+                    </div>
+                </div>
+                <div class="project flex-c">
+                    <div class="project__box flex-c-c">
+                        <img class="project__img" src="img/projects/icon_photo.png" alt="project-img" />
+                        <div class="project__title">Photos</div>
+                    </div>
+                    <div class="project__box flex-c-c">
+                        <a class="btn__inactive">In progress</a>
+                        <div class="project__icon__container">
+                            <img class="project__icon" alt="tool-icon" src="img/tech/react.png" />
+                            <img class="project__icon" alt="tool-icon" src="img/tech/redux.png" />
+                            <img class="project__icon" alt="tool-icon" src="img/tech/bootstrap.png" />
+                        </div>
+                        <a href="https://github.com/cerassus/CODE-ME-react-photos" target="_blank"
+                            class="btn btn--code">Code</a>
+                    </div>
+                </div>
+                <div class="project flex-c">
+                    <div class="project__box flex-c-c">
+                        <img class="project__img" src="img/projects/icon_whisky.png" alt="project-img" />
+                        <div class="project__title">Jameson</div>
+                    </div>
+                    <div class="project__box flex-c-c">
+                        <a href="http://cerassus.usermd.net/fcc-rwd-3/" target="_blank" class="btn btn--project">Visit
+                            website</a>
+                        <div class="project__icon__container">
+                            <img class="project__icon" alt="tool-icon" src="img/tech/html.png" />
+                            <img class="project__icon" alt="tool-icon" src="img/tech/css.png" />
+                        </div>
+                        <a href="https://github.com/cerassus/Jameson-freeCodeCamp-RWD" target="_blank"
+                            class="btn btn--code">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__resume flex">
+
+                <div class="projects__resume__cv">
+                    <h2 class="section__title">my resume</h2>
+                    <p class="section__text light-font">You can look at my resume here: </p>
+                    <div class="projects__resume__cv__pdf">
+                        <a href="http://cerassus.eu/pdf/CV_PL.pdf" target="_blank">POLISH</a>
+                        <a href="http://cerassus.eu/pdf/CV_EN.pdf" target="_blank">ENGLISH</a>
+                    </div>
+                </div>
+                <div class="projects__resume__certifications dark-font" id="certifications">
+                    <h2 class="section__title dark-font">certifications</h2>
+                    <p>freeCodeCamp</p>
+                    <a href="https://www.freecodecamp.org/certification/cerassus/responsive-web-design" target="_blank"
+                        class="certificate">Responsive Web Design</a>
+                    <a href="https://www.freecodecamp.org/certification/cerassus/javascript-algorithms-and-data-structures"
+                        target="_blank" class="certificate">JavaScript Algorithms and Data Structures</a>
+                    <a href="https://www.freecodecamp.org/certification/cerassus/front-end-libraries" target="_blank"
+                        class="certificate">Front-End Libraries</a>
+                    <p>CODE:ME</p>
+                    <a href="http://cerassus.usermd.net/pdf/codeme.pdf" class="certificate">JavaScript from scratch and
+                        React</a>
+                    <p>Coders Lab</p>
+                    <a href="http://cerassus.usermd.net/pdf/coderslab.pdf" class="certificate">Basics of Web
+                        Development</a>
+                    <a href="http://cerassus.usermd.net/pdf/coderslab2.pdf" class="certificate">JavaScript and
+                        React/Redux for programmers</a>
+                    <p>Udemy</p>
+                    <a href="https://www.udemy.com/certificate/UC-47741973-118b-4b4e-bbf0-4da7b95e3215/"
+                        class="certificate">Web Developer Bootcamp</a>
+                    <a href="https://www.udemy.com/certificate/UC-VNNBVF2O/" class="certificate">Bootstrap 4
+                        Bootcamp</a>
+                    <a href="https://www.udemy.com/certificate/UC-VNNBVF2O/" class="certificate">Advanced CSS and Sass:
+                        Flexbox, Grid, Animations and More!</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h1>Contact</h1>
+            <div class="full-width-heading mb-big">
+                <h2 class="section__title">contact</h2>
+            </div>
+            <form class="contact__form flex-c-c" id="form">
+                <h2 class="section__title dark-font text-c">write to me</h2>
+                <div class="contact__form__form-control">
+                    <label class="form__label" for="name">Name</label>
+                    <label class="form__label form__hint-name">Type at least 3 characters!</label>
+                    <input class="form__input" required id="name" type="text" placeholder="John Smith" />
+                </div>
+                <div class="contact__form__form-control">
+                    <label class="form__label" for="mail">E-mail</label>
+                    <label class="form__label form__hint-mail">Type a proper e-mail address!</label>
+                    <input class="form__input" required id="mail" type="text" placeholder="example@website.com" />
+                </div>
+                <div class="contact__form__form-control">
+                    <label class="form__label" for="area">Message</label>
+                    <label class="form__label form__hint-area">Type at least 3 characters!</label>
+                    <textarea required class="form__area" id="area" placeholder="Hello Michael!..."></textarea>
+                </div>
+                <button class="btn btn--contact btn--code" type="submit" id="send-email">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+            Copyright 2020 - Michał Wiśniewski - Cerassus
+        </div>
+    </footer>
+    <div class="popup flex-r-c-c" id="popup_hobby_1">
+        <a class="popup__close__bg" href="#close"></a>
+        <div class="popup__content">
+            <img src="img/hobbies/draw1.jpg" alt="Hobby photo" class="popup__img">
+            <h2 class="popup__heading section__title dark-font">whisky</h2>
+            <div class="popup__text">
+                I am a big fan of Single Malt Scotch and Irish whiskey.
+                I really enjoy tasting new flavors using conventional methods,
+                with ice or mixers. I prefer sweet and smooth flavor profile.
+                So far, I had the greatest pleasure tasting Dalmore 12, Glendronach 12,
+                Oban 14 and Glenmorangie Lasanta.
+            </div>
+            <a href="#close" class="popup__close">&times;</a>
+        </div>
+    </div>
+    <div class="popup flex-r-c-c" id="popup_hobby_2">
+        <a class="popup__close__bg" href="#close"></a>
+        <div class="popup__content">
+            <img src="img/hobbies/draw2.jpg" alt="Hobby photo" class="popup__img">
+            <h2 class="popup__heading section__title dark-font">art</h2>
+            <div class="popup__text">
+                From time to time I reach for my pencil. People are main objects of my
+                artistic inspirations. I like to draw portraits - it teaches me patience
+                and helps me to relax. Drawing and painting has taught me to pay much
+                attention to details, allowing me to look at people in different way.
+            </div>
+            <a href="#close" class="popup__close">&times;</a>
+        </div>
+    </div>
+    <div class="popup flex-r-c-c" id="popup_hobby_3">
+        <a class="popup__close__bg" href="#close"></a>
+        <div class="popup__content">
+            <img src="img/hobbies/draw3.png" alt="Hobby photo" class="popup__img">
+            <h2 class="popup__heading section__title dark-font">travel</h2>
+            <div class="popup__text">
+                I owe my passion for travel to my uncle, who traveled to India on business
+                purposes when I was little. I love to discover new places and learn from
+                foreign cultures. Seeing so many different worlds has taught me to pay
+                attention to things that I miss and to appreciate things that I had
+                underestimated before.
+            </div>
+            <a href="#close" class="popup__close">&times;</a>
+        </div>
+    </div>
+    <input type="checkbox" id="checkbox_email_success">
+    <div class="alert flex-r-c-c" id="alert_email_success">
+        <div class="alert__content">
+            <div class="alert__bar alert__bar__success section__title">Contact</div>
+            <div class="section__text alert__text">
+                Thank you, your e-mail has been sent to me.
+            </div>
+            <div id="alert_email_success_close">&times;</div>
+        </div>
+    </div>
+    <input type="checkbox" id="checkbox_email_fail">
+    <div class="alert flex-r-c-c" id="alert_email_fail">
+        <div class="alert__content">
+            <div class="alert__bar alert__bar__fail section__title">Contact</div>
+            <div class="section__text alert__text">
+                Something went wrong. Please try again or contact with me directly via <a href="mailto:cerassus@outlook.com">cerassus@outlook.com</a>
+            </div>
+           <a id="alert_email_fail_close">&times;</a>
+        </div>
+    </div>
+    <div class="loader flex-c-c-c" id="loader">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+</body>
+
+</html>
